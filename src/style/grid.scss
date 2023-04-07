@@ -1,0 +1,15 @@
+.one-column {
+    @include base-grid();
+    grid-template-columns: 1fr;
+}
+
+.two-column {
+    @include base-grid();
+    grid-template-columns: 1fr 1fr;
+}
+
+// Optional styles for three-column layout for Dropzone elements and just add class to Dropzone Div element in portfolio-form.js
+// .three-column {
+//     @include base-grid();
+//     grid-template-columns: 1fr 1fr 1fr;
+// }
