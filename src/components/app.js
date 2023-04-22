@@ -126,17 +126,20 @@ componentDidMount() {
                 )}
               />
 
-              {this.state.loggedInStatus === "LOGGED_IN" ? this.authorizedPages() : null}
-              <Route exact path='/portfolio/:slug' component={PortfolioDetail} />
-
+              {this.state.loggedInStatus === "LOGGED_IN"
+                ? this.authorizedPages()
+                : null}
+              <Route
+                exact
+                path='/portfolio/:slug'
+                component={PortfolioDetail}
+              />
               {/* Catch all Route for links that don't exist and is last in routes */}
               <Route component={NoMatch} />
             </Switch>
           </div>
         </Router>
-
       </div>
-
     );
   }
 }
