@@ -6,7 +6,7 @@
     "node": "16.9.1"
   },
   "scripts": {
-    "postinstall": "cp env.example.js env.js",
+    "preinstall": "npm set audit false",
     "start": "webpack-dev-server --config webpack/dev.config.js --watch",
     "build": "cross-env NODE_ENV=production webpack --config webpack/prod.config.js --progress --display-error-details --color",
     "heroku-postbuild": "npm run build",
@@ -28,7 +28,7 @@
     "sass",
     "css module"
   ],
-  "author": "Jordan Hudgens",
+  "author": "Jared Mitchell",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/bottega-code-school/js-builder/issues"
