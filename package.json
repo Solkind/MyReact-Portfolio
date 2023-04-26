@@ -2,6 +2,9 @@
   "name": "jordan-hudgens-react-portfolio",
   "version": "1.0.0",
   "description": "Personal portfolio app built in React",
+  "engines": {
+    "node": "16.9.1"
+  },
   "scripts": {
     "postinstall": "cp env.example.js env.js",
     "start": "webpack-dev-server --config webpack/dev.config.js --watch",
