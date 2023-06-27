@@ -1,5 +1,5 @@
 {
-  "name": "jordan-hudgens-react-portfolio",
+  "name": "jared-mitchells-react-portfolio",
   "version": "1.0.0",
   "description": "Personal portfolio app built in React",
   "engines": {
@@ -31,9 +31,9 @@
   "author": "Jared Mitchell",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bottega-code-school/js-builder/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/bottega-code-school/js-builder",
+  "homepage": "",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
